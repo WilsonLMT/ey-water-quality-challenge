@@ -17,8 +17,8 @@ The task consists of predicting three water quality parameters for unseen river 
 ```
 ├── 01_terraclimate_extraction.ipynb        # Extraction of climate variables from TerraClimate
 ├── 02_terraclimate_runoff_extraction.ipynb # Extraction of the runoff variable (q) from TerraClimate
-├── 03_landsat_extraction.ipynb             # Extraction of spectral features from Landsat imagery
-├── Prueba1_v20_final.ipynb                 # Main modeling notebook: feature integration, training and prediction
+├── landsat_extraction.ipynb                # Extraction of spectral features from Landsat imagery
+├── Prueba.ipynb                            # Main modeling notebook: feature integration, training and prediction
 ├── water_quality_training_dataset.csv      # Training data from UNEP (162 stations, 2011-2015)
 ├── submission_template.csv                 # Validation points for which predictions are generated
 └── requirements.txt                        # Python dependencies
